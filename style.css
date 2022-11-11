@@ -194,6 +194,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 .signup-text h3{
