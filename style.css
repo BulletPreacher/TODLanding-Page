@@ -3,7 +3,6 @@ body{
     font-family: 'Roboto', Arial;
 }
 
-
 /*---------------------------------------------------------------------------------------------*/
 
 .header{
@@ -46,6 +45,7 @@ a{
 
 .hero-wrapper{
     display: flex;
+    flex-wrap: wrap;
     max-width: 1100px;
     margin: auto;  
     gap:32px;
@@ -86,6 +86,8 @@ a{
     border-radius: 20px;
     background: url("https://piotrnajda3000.github.io/landing-page/hero_image.jpg");
     background-size: cover;
+    min-width: 200px;
+    min-height: 200px;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -187,6 +189,9 @@ a{
 
 .signup-text{
     flex:8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .signup-text h3{
@@ -199,6 +204,7 @@ a{
     margin: 0;
     font-size: 15px;
     color:white;
+    padding-bottom: 15px;
 }
 
 .signup-button{
